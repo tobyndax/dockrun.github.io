@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Simple scripts for running commands within alpine docker container, and simple aliased removal of docker images.">
+    <meta name="author" content="Hans-Filip Elo">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Dockrun: Use docker and alpine as your package manager.</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/narrow-jumbotron.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/hansfilipelo/dockrun">Github</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/hansfilipelo/dockrun/releases">Download</a>
+            </li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">dockrun</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1 class="display-3">dockrun</h1>
+      </div>
+      <p class="lead">On two of the main desktop computing platforms, macOS and Windows, package and dependency management is hard. Package managers either don't handle dependency management very well, or they have issues with removing unused dependencies. Many BSD or GNU/Linux distributions have solved package management a long time ago. dockrun uses Alpine GNU/Linux along with Docker to simplify package management for all platforms.</p>
+
+      <div class="row marketing">
+        <div class="col-lg-6">
+          <h4>Simple package installations</h4>
+          <p>Just "dockrun command" and go!</p>
+          <br>
+          <br>
+          <br>
+
+          <h4>Does not reinvent the wheel</h4>
+          <p>dockrun is not a new package manager, rather it provides a tiny abstraction upon Docker and Alping in order to create a "get running quickly"-interface for running command line applications. This means that dockrun uses proven technologies with an already <a href="https://pkgs.alpinelinux.org/packages">enourmous collection of packages</a> at its disposal.</p>
+        </div>
+
+        <div class="col-lg-6">
+          <h4>Simple package removal</h4>
+          <p>Just "dockrm command" and remove all files and dependencies for said command. Does not clutter your OS file system.</p>
+          <br>
+
+          <h4>Works on all major desktop platforms</h4>
+          <p>Works on all platforms supported by Docker.</p>
+
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>&copy; Hans-Filip Elo 2018</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
